@@ -13,14 +13,3 @@ config ZMK_KEYBOARD_NAME
 	default "The Sandbox"
 
 endif
-
-
-if SHIELD_PIANO_DONGLE || SHIELD_PIANO_NORM_LEFT
-
-config ZMK_SPLIT
-	default y
-
-config ZMK_SPLIT_BLE_ROLE_CENTRAL
-	default y
-
-endif

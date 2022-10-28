@@ -20,7 +20,7 @@
 		bindings = <
 		 		&kp H 	&kp UP    	&kp O	  
 		    &kp LEFT    	&kp DOWN   		&kp RIGHT 	&kp C
-		&bt BT_CLR	&kp &alpha2macro	 	
+		&bt BT_CLR	&kp A	 	
 		>;
 		};
 	};
